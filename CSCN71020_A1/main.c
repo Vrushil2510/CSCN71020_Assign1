@@ -50,17 +50,18 @@ void add() {
 	scanf_s("%d", &num2);
 	result = num1 + num2;
 	printf("%d + %d = %d\n", num1, num2, result);
+	printf("Final result of addition function is %d", result);
 }
 
-void subtract()
-{
-	int num1, num2;
-
-	num1 = 0;
-	num2 = 42;
-
-	int result = num2 - num1;
-	printf("The anser is %d", result);
+void subtract() {
+	int num1, num2, result;
+	printf("Enter the first value:");
+	scanf_s("%d", &num1);
+	printf("Enter the second value:");
+	scanf_s("%d", &num2);
+	result = num1 - num2;
+	printf("%d - %d = %d\n", num1, num2, result);
+	printf("Final result of subtraction function is %d", result);
 }
 
 
