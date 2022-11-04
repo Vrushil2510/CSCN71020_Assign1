@@ -54,13 +54,13 @@ void add() {
 
 void subtract()
 {
-	double num1, num2, result;
-	printf("Enter the first value:");
-	scanf_s("%lf", &num1);
-	printf("Enter the second value:");
-	scanf_s("%lf", &num2);
-	result = num1 - num2;
-	printf("%lf - %lf = %lf\n", num1, num2, result);
+	int num1, num2;
+
+	num1 = 0;
+	num2 = 42;
+
+	int result = num2 - num1;
+	printf("The anser is %d", result);
 }
 
 
